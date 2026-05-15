@@ -8,7 +8,7 @@ from views.voice_panel import VoicePanel
 # НАСТРОЙКА
 # =========================================
 
-CREATOR_CHANNEL_ID = 1504216902850056293
+CREATOR_CHANNEL_ID = 1504809300239978657
 SETTINGS_CHANNEL_ID = 1504216841093120140
 
 VOICE_CATEGORY_NAME = "𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐕𝐎𝐈𝐂𝐄"
