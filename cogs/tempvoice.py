@@ -110,15 +110,15 @@ class TempVoice(commands.Cog):
         # УДАЛЕНИЕ ПУСТОЙ КОМНАТЫ
         # =================================
 
-if before.channel:
+    if before.channel:
 
-    if before.channel.category:
+        if before.channel.category:
 
-        if before.channel.category.name == VOICE_CATEGORY_NAME:
+            if before.channel.category.name == VOICE_CATEGORY_NAME:
 
-            if len(before.channel.members) == 0:
+                if len(before.channel.members) == 0:
 
-                await before.channel.delete()
+                    await before.channel.delete()
 
     # =====================================
     # SETUP PANEL
